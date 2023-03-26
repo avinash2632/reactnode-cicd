@@ -25,9 +25,9 @@ jobs:
         
 
 
-          
-      - name: Run reactapp
-      - run: |
+      - uses: actions/checkout@v2
+      - name: React ap
+      - run: | 
       
           cd ../my-app
           npm install
