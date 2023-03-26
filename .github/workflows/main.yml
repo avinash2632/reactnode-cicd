@@ -22,10 +22,16 @@ jobs:
           npm install
           sudo npm run build
           sudo npm start
+        
+
+
+          
+      - name: Run reactapp
+      - run: |
+      
           cd ../my-app
           npm install
           sudo npm run build
           sudo npm start
 
 
- 
