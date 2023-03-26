@@ -20,12 +20,12 @@ jobs:
 
           cd api
           npm install
-          npm run build
-          npm start
+          sudo npm run build
+          sudo npm start
           cd ../my-app
           npm install
-          npm run build
-          npm start
+          sudo npm run build
+          sudo npm start
 
 
  
