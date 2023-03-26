@@ -18,7 +18,7 @@ jobs:
       - run:
 
 
-          cd api
+          cd ../api
           npm install
           npm run build
           npm start
