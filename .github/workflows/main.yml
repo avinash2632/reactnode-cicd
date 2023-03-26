@@ -23,7 +23,7 @@ jobs:
           cd api
           npm install
           sudo npm run build
-          sudo npm start
+ 
 
       - name: Run Tests
         run: |
